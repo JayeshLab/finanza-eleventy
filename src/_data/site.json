@@ -1,0 +1,64 @@
+{
+  "company": {
+    "name": "Finanza",
+    "address": "123 Street, New York, USA",
+    "time": "9.00 am - 9.00 pm",
+    "email": "info@example.com",
+    "phone": "+012 345 6789"
+  },
+  "menu": [
+    {
+      "title": "Home",
+      "path": "/",
+      "description": ""
+    },
+    {
+      "title": "About",
+      "path": "/about",
+      "description": ""
+    },
+    {
+      "title": "Services",
+      "path": "/service",
+      "description": ""
+    },
+    {
+      "title": "Pages",
+      "description": "",
+      "path": "#",
+      "children": [
+        {
+          "title": "Projects",
+          "description": "",
+          "path": "/project"
+        },
+        {
+          "title": "Features",
+          "description": "",
+          "path": "/feature"
+        },
+        {
+          "title": "Team Member",
+          "description": "",
+          "path": "/team"
+        },
+        {
+          "title": "Testimonial",
+          "description": "",
+          "path": "/testimonial"
+        },
+        {
+          "title": "404 Page",
+          "description": "",
+          "path": "/404"
+        }
+      ]
+    },
+    {
+      "title": "Contact",
+      "description": "",
+      "path": "/contact"
+    }
+  ],
+  "submenu": ["Projects", "Features", "Team Member", "Testimonial", "404 Page"]
+}
